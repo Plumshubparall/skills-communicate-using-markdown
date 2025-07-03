@@ -1,3 +1,44 @@
+nombre: sitio de jekell ci 
+en:
+enpujar:
+ramas:["maestro"]
+pull_request:
+ramas:["maestro"]
+trabajos:
+construir:
+corre en marcha:ubuntu-latest 
+pasos:
+-usos:Acciones/checkouv4
+-nombre:compilar el sitio en el contenedor jekell/builder
+corre:|
+docker run\
+-v${{github.workspace}}:/srv/jekell-v${{github.workspace}}/_site:/srv/jekell/_site\jekell/builder:lates/bin/bash-c"chmod-r777/srv/jekell&jekellbuilder--future"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Communicate using Markdown
 
 <img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
