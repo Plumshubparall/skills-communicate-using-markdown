@@ -1,1 +1,44 @@
+<nav class="nav-bar">
+  <a href="index.html" class="nav-icon" title="Inicio">
+    <!-- Casita -->
+    <svg width="20" height="20" viewBox="0 0 64 64" fill="#444">
+      <path d="M32 12 L12 32 H20 V52 H28 V40 H36 V52 H44 V32 H52 Z"/>
+    </svg>
+  </a>
+
+  <a href="contacto.html" class="nav-icon" title="Contacto">
+    <!-- Teléfono -->
+    <svg width="20" height="20" viewBox="0 0 64 64" fill="#444">
+      <path d="M48 44 C44 40 40 36 36 32 C32 28 28 24 24 20 C20 16 16 12 12 8 L16 4 C20 8 24 12 28 16 C32 20 36 24 40 28 C44 32 48 36 52 40 Z"/>
+    </svg>
+  </a>
+
+  <a href="configuracion.html" class="nav-icon" title="Configuración">
+    <!-- Engranaje -->
+    <svg width="20" height="20" viewBox="0 0 64 64" fill="#444">
+      <path d="M32 24 A8 8 0 1 0 32 40 A8 8 0 1 0 32 24 M16 32 L8 32 M56 32 L48 32 M32 8 L32 16 M32 48 L32 56"/>
+    </svg>
+  </a>
+
+  <a href="https://wa.me/549XXXXXXXXXX" class="nav-icon" title="WhatsApp">
+    <!-- WhatsApp -->
+    <svg width="20" height="20" viewBox="0 0 64 64" fill="#25D366">
+      <path d="M32 4C17.6 4 6 15.6 6 30c0 5.3 1.5 10.3 4.3 14.7L6 60l15.7-4.3C25.7 58.5 28.8 60 32 60c14.4 0 26-11.6 26-26S46.4 4 32 4z"/>
+    </svg>
+  </a>
+</nav>
+.nav-bar {
+  display: flex;
+  gap: 15px;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+}
+
+.nav-icon {
+  transition: transform 0.2s ease;
+}
+
+.nav-icon:hover {
+  transform: scale(1.2);
+}
 
